@@ -20,7 +20,7 @@ namespace Timeout_Copacol
             }
             else
             {
-                Application.Run(new FrmPrincipal("2"));
+                Application.Run(new FrmPrincipal());
             }
         }
     }

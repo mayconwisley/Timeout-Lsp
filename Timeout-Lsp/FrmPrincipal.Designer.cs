@@ -37,11 +37,11 @@
             // 
             this.LblAguardando.AutoSize = true;
             this.LblAguardando.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAguardando.Location = new System.Drawing.Point(68, 20);
+            this.LblAguardando.Location = new System.Drawing.Point(77, 21);
             this.LblAguardando.Name = "LblAguardando";
-            this.LblAguardando.Size = new System.Drawing.Size(202, 20);
+            this.LblAguardando.Size = new System.Drawing.Size(193, 20);
             this.LblAguardando.TabIndex = 0;
-            this.LblAguardando.Text = "Aguardando 000 segundos";
+            this.LblAguardando.Text = "Aguardando 00 segundos";
             // 
             // TimeoutPrincipal
             // 
@@ -54,7 +54,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(346, 63);
             this.Controls.Add(this.LblAguardando);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPrincipal";

@@ -7,6 +7,11 @@ namespace Timeout_Copacol
     {
         private string _timeout = string.Empty;
         private int count = 0;
+        public FrmPrincipal()
+        {
+            InitializeComponent();
+            _timeout = "2";
+        }
         public FrmPrincipal(string timeout)
         {
             InitializeComponent();
@@ -29,11 +34,11 @@ namespace Timeout_Copacol
         {
             if (count == 1)
             {
-                LblAguardando.Text = $"Aguardando {count:000} segundo";
+                LblAguardando.Text = $"Aguardando {count:00} segundo";
             }
             else
             {
-                LblAguardando.Text = $"Aguardando {count:000} segundos";
+                LblAguardando.Text = $"Aguardando {count:00} segundos";
             }
 
             if (count == 0)

@@ -5,6 +5,24 @@ Este repositório contém dois aplicativos simples desenvolvidos em C#: um para 
 
 ---
 
+# 📦 Download
+
+Você pode baixar o executável compilado clicando no link abaixo:
+
+👉 [Download do Timeout-Lsp](https://github.com/mayconwisley/Timeout-Lsp/raw/refs/heads/master/Download/Timeout-Lsp.exe)
+👉 [Download do Timeout-Lsp-Cmd](https://github.com/mayconwisley/Timeout-Lsp/raw/refs/heads/master/Download/Timeout-Lsp-Cmd.exe)
+
+> Após o download, você pode executá-lo via terminal:
+>
+> ```bash
+> Timeout-Lsp.exe "5"
+> ```
+>
+> ```bash
+> Timeout-Lsp-Cmd.exe "5"
+> ```
+
+
 ## 🕒 Timeout_Lsp_Cmd
 
 ### ✔️ Descrição

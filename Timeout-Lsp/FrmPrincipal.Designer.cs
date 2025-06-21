@@ -1,4 +1,4 @@
-﻿namespace Timeout_Copacol
+﻿namespace Timeout_Lsp
 {
     partial class FrmPrincipal
     {
